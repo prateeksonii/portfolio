@@ -1,0 +1,23 @@
+body {
+  padding: 2rem 20vw;
+}
+
+nav {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 18px;
+  }
+}

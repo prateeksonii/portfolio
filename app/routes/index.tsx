@@ -1,4 +1,5 @@
 import { LinksFunction } from "remix";
+import Header from "~/components/Header";
 import Navbar from "~/components/Navbar";
 
 import stylesUrl from "~/styles/index/index.css";
@@ -11,6 +12,8 @@ export default function IndexPage() {
   return (
     <>
       <Navbar />
+      <Header />
+      {/* <Projects /> */}
     </>
   );
 }

@@ -1,9 +1,13 @@
 html,
 body {
-  margin: 0;
-  font-family: "SUIT", sans-serif;
+  box-sizing: border-box;
   background-color: #1a1a1a;
   color: white;
+}
+
+* {
+  margin: 0;
+  font-family: "SUIT", sans-serif;
 }
 
 /*# sourceMappingURL=root.css.map */

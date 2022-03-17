@@ -21,3 +21,67 @@ nav {
     font-size: 18px;
   }
 }
+
+header {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+
+  h1.heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  p.lead {
+    margin-top: 1rem;
+    font-size: 36px;
+    line-height: 60px;
+    color: #737373;
+  }
+
+  img {
+    margin-left: auto;
+    width: 60%;
+  }
+}
+
+button.primary {
+  color: white;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  font-size: 24px;
+
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 2px solid white;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.download {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}

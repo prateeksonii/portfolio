@@ -9,7 +9,7 @@ import {
 } from "remix";
 import type { MetaFunction } from "remix";
 
-import stylesUrl from "~/styles/root/root.css";
+import stylesUrl from "~/styles/app.css";
 
 export const meta: MetaFunction = () => {
   return { title: "New Remix App" };
